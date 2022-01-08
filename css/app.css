@@ -1,0 +1,605 @@
+/* nav bar  */
+.navbar {
+  width: 100%;
+  height: 60px;
+  /* nhiều màu đẹp quá nên e vứt tạm ở đây nha thầy :)) */
+  background-color: #d70018;
+  background-color: #222222;
+  background-image:url(https://mediatinlanh.com/wp-content/uploads/2018/02/faithstocks-014-mau-gradient-20.jpg) ;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+.left__item img {
+  height: 50px;
+}
+.left__item ion-icon {
+  height: 50px;
+  width: 50px;
+  left: 20px;
+  position: relative;
+}
+.call {
+  position: relative;
+  right: 30px;
+}
+.right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right__item {
+  color: white;
+  margin: 0px 20px 0px 20px;
+  font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  line-height: 15px;
+  position: relative;
+  right: 40px;
+
+}
+.abc {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  right: 40px;
+}
+.abc2 {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  right: 50px;
+  bottom: 1px;
+}
+.chgn   {
+  position: relative;
+  right: 35px;
+}
+.abc3 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 70px;
+}
+.tcdh {
+  position: relative;
+  right: 10px;
+}
+.abc4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 30px;
+}
+.gh {
+  position: relative;
+  right: -5px;
+}
+.abc5 {
+  width: 20px;
+  height: 20px;
+  right: 100px;
+}
+.navbar__item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 50px;
+}
+.left__item ion-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.left__item {
+  color: white;
+  margin: 0 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+.timkiemvatpham input {
+  width: 300px;
+  height: 30px;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  border: none;
+  position: relative;
+  right: 35px;
+}
+.checkgiahcm {
+  cursor: pointer;
+  border-radius: 20px;
+  height: 40px;
+  width: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+.back {
+  cursor: pointer;
+  border-radius: 20px;
+  height: 40px;
+  width: 75px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  position: relative;
+  flex-direction: column;
+
+}
+input,
+input::-webkit-input-placeholder {
+  font-size: 20px;
+  line-height: 3;
+  font-family: "Roboto", sans-serif;
+}
+/* end nav bar  */
+/* phan than web   */
+
+.sanphamsale {
+  height: 421px;
+  width: 1230px;
+  background-image: linear-gradient(to bottom , #33089b, #ba15d9);
+  position: relative;
+  top: 105px;
+  left: 30px;
+  border-radius: 20px;
+  text-align: center;
+}
+.dienthoai__flex {
+  display: flex;
+  position:relative;
+  top: 65px;
+}
+.boxed {
+  width: 225px;
+  height: 352px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+.boxed img {
+  width: 90%;
+  height: 60%;
+  position: relative;
+  top: 10px;
+}
+.sale {
+  width: 40%;
+  height: 13.5px;
+  border-radius: 20px;
+  color: white;
+  background-color: red;
+  position: relative;
+  bottom: 210px;
+  font-size: 20px;
+  right: 80px;
+}
+.tensp h1 {
+  height: 22.5px;
+  width: 90%;
+  font-size: 18.75px;
+  bottom: 10px;
+  position: relative;
+  left: 5px;
+  font-weight: 700;
+  display: -webkit-box;
+  font-family: "Roboto", sans-serif;
+}
+.price h1 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #d70018;
+}
+.price {
+  position: relative;
+  top: 10px;
+  right: 50px;
+}
+.saleprice h1 {
+  font-size: 1rem;
+  text-decoration: line-through;
+  color: #707070;
+}
+.saleprice {
+  position: relative;
+  bottom: 5px;
+  left: 60px;
+}
+.star {
+  display: flex;
+  color: gold;
+  position: relative;
+  bottom: 5px;
+  left: 10px;
+  font-size: 12.5px;
+}
+.danhgia h1 {
+  color: #707070;
+  font-size: 1.0rem;
+  opacity: 80%;
+}
+.danhgia {
+  position: relative;
+  bottom: 20px;
+  left: 45px;
+}
+.hotsale img {
+  width: 185px;
+  height: 185px;
+  bottom: 410px;
+  position: relative;
+}
+.cacspdthot {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.menu__quangcao {
+  position: relative;
+  right: 50px;
+}
+.cener {
+  position: relative;
+  left: -20px;
+}
+.cacspdthhot {
+  padding: 0 25px;
+  width: 90%;
+  height: auto;
+  z-index: inherit;
+  position: relative;
+  top: 140px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bakbak One", cursive;
+}
+.card {
+  position: relative;
+  width: 19%;
+  height: 300px;
+  background-color: white;
+  border-radius: 20px;
+  border:1px solid #333;
+}
+.mac142021 {
+  width: 90%;
+  height: 60%;
+ */
+}
+.card h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 12.5px;
+  position: absolute;
+}
+.mac142021gia {
+  position: absolute;
+  font-size: 18px;
+  margin-top: 40px;
+  color: rgb(255, 82, 82);
+}
+.sao {
+  display: flex;
+  position: absolute;
+}
+.sao ion-icon {
+  color: gold;
+  font-size: 12.5px;
+  margin-top: 75px;
+}
+.apple {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.more {
+  position: relative;
+  height: auto;
+  width: 90%;
+  font-size: 22.5px;
+  font-family: "Roboto", sans-serif;
+  top: 150px;
+}
+.end {
+  position: relative;
+  display: flex;
+  top: 180px;
+}
+.end ul li {
+  font-size: 13.5px;
+  line-height: 22.5px;
+  font-family: "Roboto", sans-serif;
+}
+.d1 {
+  font-size: 18px;
+  position:relative;
+  color:red
+}
+.pttt {
+  font-size: 18.75px ;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  left: 80px;
+  top:50px;
+}
+.pttt img {
+  width: 300px;
+  height: 150px;
+}
+.pttt2 {
+  font-size: 18.75px ;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top:-120px;
+  position: relative;
+  left: 450px;
+}
+.pttt2 h1 {
+  font-size:15px;
+  right: 78px;
+  position: relative;
+}
+.fbadmin {
+  width: 153px;
+  height: 67.5px;
+  border: none;
+  background: rgb(251,33,117);
+    background: linear-gradient(0deg, rgba(251,33,117,1) 0%, rgba(234,76,137,1) 100%);
+    overflow: hidden;
+    border-radius: 50px;
+}
+.fbadmin a {
+  text-decoration:none ;
+  font-size: 15px;
+  color: #fff;
+}
+.fbadmin:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.fbadmin:hover{
+  opacity: 0.7;
+}
+.tmcp {
+  text-align: center;
+  bottom: 50px;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  color:rgb(109, 109, 109);
+  opacity: 80%;
+  font-size: 10px;
+}
+.hinhanh {
+  display: flex;
+justify-content: space-between;
+}
+.hinhanh img {
+  width: 24%;
+  height: 157.5px;
+  border-radius: 20px;
+}
+.ctth {
+  position: relative;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.apple1  {
+display: flex;
+flex-direction: row-reverse;
+margin-top: 5px;
+}
+.erro {
+  width: 90%;
+  height: 60%;
+}
+.apple8 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  }
+  .menutrai__anhgiua_baanhnhophai {
+    height: 400px;;
+    width: 90%;
+    position: relative;
+    top: 70px;
+    left: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  }
+
+.menu__text {
+  font-size: 25px;
+  position: absolute;
+  height: 100%;
+  left: 45px;
+  top: -0.1em;
+  text-align-last: left;
+  line-height: 43.4px;
+  font-family: "Roboto", sans-serif;
+  opacity: 55%;
+}
+.bahinhnho img {
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  border-radius: 20px;
+  justify-content: space-around;
+  position: relative;
+  left: 15px;
+
+}
+.bahinhnho {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  top:0;
+}
+.right__here  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 35px;
+  position: absolute;
+  height: 100%;
+  left: 300px;
+  opacity: 55%;
+}
+.bigimg {
+width: 57%;
+height: 100%;
+position: absolute;
+left: 230px;
+border-radius: 10px;
+border: rgba(184, 184, 184, 0.6) solid;
+top:1px;
+
+}
+.bigimg img {
+  width: 100%;
+  height: 80%;
+
+}
+.miniqc {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+  color:#3b3b3b;
+  font-size: 14px;
+  position: relative;
+  top: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+  .test img{
+height: 267px;
+width: 1450px;
+position: relative;
+right: 90px;
+  }
+  /* menu trai  */
+  .menu__list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 20px;
+    border:1px solid rgb(189, 189, 189);
+    width: 220px;
+    height: 100%;
+
+  }
+  .menu__list__item {
+  font-size: 15px;
+  width: 210px;
+  justify-content: space-between;
+  display: flex;
+  transition: background-color 0.2s linear;
+  bottom: 0;
+  right: 0;
+  }
+.menu__list__item:hover .menu__child {
+  display: block;
+}
+.menu__list__item span {
+    flex:1;
+    line-height: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #343a40;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: absolute;
+    left: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.menu__child {
+  display: none;
+  left:221px;
+  position: absolute;
+  width: 200px;
+  height: 450px;
+  z-index: 4;
+  top:0%;
+  background-color: white;
+}
+.menu__child__item {
+  font-size: 20px;
+  width: 200px;
+  justify-content: space-between;
+  display: flex;
+  transition: background-color 0.2s linear;
+  bottom: 0;
+  right: 0;
+
+}
+
+.menu__child__item span {
+    flex:1;
+    line-height: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #343a40;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    position: absolute;
+    left: 50px;
+    font-family: "Roboto", sans-serif;
+}
+
+.iphonepro {
+  position: absolute;
+  background-color: white;
+  left: 200px;
+  height: 100%;
+  width: 200px;
+  line-height: 29px;
+  font-size: 18px;
+  display: none;
+}
+.menu__child__item:hover .iphonepro {
+  display: block;
+}
+.menu__child p {
+  line-height: 25px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+}
+.menu__list:hover .fiixbug {
+  display: block;
+}
+.menu__list {
+  cursor:pointer;
+}
+.menu__child h1 {
+  font-size: 15px;
+}
+
+
